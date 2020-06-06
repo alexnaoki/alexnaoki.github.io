@@ -9,7 +9,7 @@ Some metadata is necessary to access and visualize the API. You can apply your o
 
 <img src="../../images/lhc_hidroweb/inventario01_v2.gif"/>
 
-## 2. Data Selection
+## 2. Data Selection and Download
 
 In order to acquire **public** data, you should be able to easily download it with minimum difficulty. After complete the process necessary to use the tool, you'll be able select through:
 
