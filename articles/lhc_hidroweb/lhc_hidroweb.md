@@ -5,7 +5,7 @@
 
 ## 1. Download your data direct through ANA's API
 
-<img src="images/lhc_hidroweb/download01_v2.gif"/>
+<img src="../../images/lhc_hidroweb/download01_v2.gif"/>
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
