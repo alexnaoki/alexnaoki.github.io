@@ -2,10 +2,13 @@
 
 ---
 
-### Category Name 1
+### LHC_Hidroweb
 
-[## LHC_Hidroweb](/sample_page)
+A **JupyterLab** and **Python** application able to download **Rain** and **Flow** through **National Water Agency**'s API.
+
 <img src="images/lhc_hidroweb/thumb_lhc_hidroweb.PNG?raw=true"/>
+
+[LHC_Hidroweb](/sample_page)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
