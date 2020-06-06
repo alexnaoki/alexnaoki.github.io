@@ -5,12 +5,11 @@
 ## LHC_Hidroweb
 Hydrological data are key in decision making for projects of water resources infrastructure and management. However the achievement of the data can be hard and inefficient. This problem can escalate depending on the amount of data required or depending on the desired area.
 
-**Download** hydrological data with your **shapefile** or you can just **draw it**.
- [Read more](/articles/lhc_hidroweb/lhc_hidroweb)
+**Download** hydrological data with your **shapefile** or just **draw it**. [Read more](/articles/lhc_hidroweb/lhc_hidroweb)
 
 <img src="images/lhc_hidroweb/thumb_lhc_hidroweb.PNG?raw=true"/>
 
-[Link to Instructions](https://github.com/alexnaoki/LHC_Hidroweb)
+[Link to Github Instructions](https://github.com/alexnaoki/LHC_Hidroweb)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)

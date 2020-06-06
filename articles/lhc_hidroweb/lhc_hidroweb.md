@@ -1,7 +1,7 @@
 # LHC Hidroweb
 -------------------------
 
-**Project description:** A JupyterLab and Python application able to download Rain and Flow through National Water Agency's API.
+**Project description:** A JupyterLab and Python application able to download Rain and Flow through National Water Agency's API. A key tool to use this application is the Leaflet map.
 
 ## 1. Visualization of Inventory
 
