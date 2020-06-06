@@ -2,13 +2,10 @@
 
 ---
 
-### Category Name 1 
+### Category Name 1
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-
-fsdfasdfasdfasfda
+[LHC_Hidroweb](/sample_page)
+<img src="images/lhc_hidroweb/thumb_lhc_hidroweb?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
