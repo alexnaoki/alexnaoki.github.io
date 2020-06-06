@@ -4,7 +4,7 @@
 
 ### Category Name 1
 
-[LHC_Hidroweb](/sample_page)
+[## LHC_Hidroweb](/sample_page)
 <img src="images/lhc_hidroweb/thumb_lhc_hidroweb.PNG?raw=true"/>
 
 ---
