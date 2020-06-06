@@ -1,11 +1,11 @@
-## LHC Hidroweb
+# LHC Hidroweb
 -------------------------
 
 **Project description:** Hydrological data are key in decision making for projects of water resources infrastructure and management. However the achievement of the data can be hard and inefficient. This problem can escalate depending on the amount of data required or depending on the desired area.
 
-### 1. Download your data direct through ANA's API
+## 1. Download your data direct through ANA's API
 
-<img src="images/lhc_hidroweb/download01_v2.gif?raw=true"/>
+<img src="images/lhc_hidroweb/download01_v2.gif"/>
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
