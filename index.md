@@ -5,7 +5,7 @@
 ### Category Name 1
 
 [LHC_Hidroweb](/sample_page)
-<img src="images/lhc_hidroweb/thumb_lhc_hidroweb?raw=true"/>
+<img src="images/lhc_hidroweb/thumb_lhc_hidroweb.PNG?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
