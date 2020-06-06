@@ -1,8 +1,7 @@
 # LHC Hidroweb
 -------------------------
 
-**Project description:**
-A **JupyterLab** and **Python** application able to download **Rain** and **Flow** through **National Water Agency**'s API.
+**Project description:** A JupyterLab and Python application able to download Rain and Flow through National Water Agency's API.
 
 ## 1. Visualization of Inventory
 
@@ -28,6 +27,5 @@ In order to acquire **public** data, you should be able to easily download it wi
 
 ### 3.2. And some stats
 <img src="../../images/lhc_hidroweb/stats01_v2.gif"/>
-
 
 For more details see [Github LHC_Hidroweb](https://github.com/alexnaoki/LHC_Hidroweb)
