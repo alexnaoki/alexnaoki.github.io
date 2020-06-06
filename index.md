@@ -4,11 +4,12 @@
 
 ### LHC_Hidroweb
 
-A **JupyterLab** and **Python** application able to download **Rain** and **Flow** through **National Water Agency**'s API.
+A **JupyterLab** and **Python** application able to download **Rain** and **Flow** through **National Water Agency**'s API. [More](/sample_page)
+
 
 <img src="images/lhc_hidroweb/thumb_lhc_hidroweb.PNG?raw=true"/>
 
-[LHC_Hidroweb](/sample_page)
+[Instructions to usage](https://github.com/alexnaoki/LHC_Hidroweb)
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
