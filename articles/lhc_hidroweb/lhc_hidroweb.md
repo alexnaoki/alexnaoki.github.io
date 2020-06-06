@@ -3,32 +3,31 @@
 
 **Project description:** Hydrological data are key in decision making for projects of water resources infrastructure and management. However the achievement of the data can be hard and inefficient. This problem can escalate depending on the amount of data required or depending on the desired area.
 
-## 1. Download your data direct through ANA's API
+## Visualization of Inventory
+
+Some metadata is necessary to access and visualize the API. You can apply your own Inventory or download it from the Water National Agency.
+
+<img src="../../images/lhc_hidroweb/inventario01_v2.gif"/>
+
+## Draw or insert your Shapefile to download the data direct through ANA's API
+
+In order to acquire **public** data, you should be able to easily download it with minimum difficulty. After complete the process necessary to use the tool, you'll be able select through:
+
+- **Shapefile**
+- **Drawing on the map build**
+- **Select by Date**
 
 <img src="../../images/lhc_hidroweb/download01_v2.gif"/>
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+## Check some basics stats on your selected data
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### Check the Inventory's data from your selection
 
-### 2. Assess assumptions on which statistical inference will be based
+<img src="../../images/lhc_hidroweb/tables01_v2.gif"/>
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### And some stats
+<img src="../../images/lhc_hidroweb/stats01_v2.gif"/>
 
-### 3. Support the selection of appropriate statistical tools and techniques
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [Github LHC_Hidroweb](https://github.com/alexnaoki/LHC_Hidroweb)
