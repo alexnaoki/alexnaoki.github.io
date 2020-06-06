@@ -1,7 +1,8 @@
 # LHC Hidroweb
 -------------------------
 
-**Project description:** Hydrological data are key in decision making for projects of water resources infrastructure and management. However the achievement of the data can be hard and inefficient. This problem can escalate depending on the amount of data required or depending on the desired area.
+**Project description:**
+A **JupyterLab** and **Python** application able to download **Rain** and **Flow** through **National Water Agency**'s API.
 
 ## Visualization of Inventory
 
