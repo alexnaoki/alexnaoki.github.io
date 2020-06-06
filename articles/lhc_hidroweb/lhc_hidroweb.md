@@ -9,7 +9,7 @@ Some metadata is necessary to access and visualize the API. You can apply your o
 
 <img src="../../images/lhc_hidroweb/inventario01_v2.gif"/>
 
-## 2. Draw or insert your Shapefile to download the data direct through ANA's API
+## 2. Data Selection
 
 In order to acquire **public** data, you should be able to easily download it with minimum difficulty. After complete the process necessary to use the tool, you'll be able select through:
 
@@ -19,7 +19,7 @@ In order to acquire **public** data, you should be able to easily download it wi
 
 <img src="../../images/lhc_hidroweb/download01_v2.gif"/>
 
-## 3. Check some basics stats on your selected data
+## 3. Checking your Data
 
 ### 3.1. Check the Inventory's data from your selection
 
