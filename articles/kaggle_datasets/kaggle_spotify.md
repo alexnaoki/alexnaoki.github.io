@@ -17,5 +17,5 @@ The first step is to have some kind of dataset and in this case a DataFrame from
 ```
 df = pd.read_csv('data.csv', parse_dates=['release_date'])
 ```
-<iframe src="https://discordapp.com/widget?id=703383334109053078&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+
 <iframe src="https://discordapp.com/widget?id=703383334109053078&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
