@@ -14,12 +14,14 @@ Hydrological data are key in decision making for projects of water resources inf
 [Link to Github Instructions](https://github.com/alexnaoki/LHC_Hidroweb)
 
 
+<h2><a href="/articles/opencv_hidrometro/opencv_hidrometro">OpenCV Hydrometer</a></h2>
 
-<h2><a href="/articles/kaggle_datasets/kaggle_spotify">Kaggle x Spotify</a></h2>
+
+<!-- <h2><a href="/articles/kaggle_datasets/kaggle_spotify">Kaggle x Spotify</a></h2>
 
 Teste
 
-**Download** hydrological data with your **shapefile** or just **draw it**. [Read more](/articles/kaggle_datasets/kaggle_spotify)
+**Download** hydrological data with your **shapefile** or just **draw it**. [Read more](/articles/kaggle_datasets/kaggle_spotify) -->
 
 <!-- <img src="images/lhc_hidroweb/thumb_lhc_hidroweb.PNG?raw=true"/> -->
 
