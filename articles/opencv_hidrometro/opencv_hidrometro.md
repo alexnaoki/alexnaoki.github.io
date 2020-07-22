@@ -54,7 +54,10 @@ clock = np.bitwise_and(warped_frame, mask)
 Some videos with poor contrast can be solved by Equalizing the image.
 
 
-![alt-text-1](../../images/opencv_hidrometro/glare.PNG "title-1") ![alt-text-2](../../images/opencv_hidrometro/glare.PNG "title-2")
+Without Equalizing             |  With Equalizing
+:-------------------------:|:-------------------------:
+![](../../images/opencv_hidrometro/without_eq.PNG)  |  ![](../../images/opencv_hidrometro/with_eq.PNG)
+
 
 
 ```
