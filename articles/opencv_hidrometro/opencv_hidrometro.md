@@ -82,6 +82,10 @@ You will need to filter the differents contours that the previous method will fi
 
 After you find the point of the gauge, by analising the relative position of it and the center you can calculate the estimated value.
 
+The final product also uses Bokeh for visualization.
+
+<img src="../../images/opencv_hidrometro/opencv_hidrometro.gif"/>
+
 
 For more details see [Github](https://github.com/alexnaoki/analog-gauge-reader).
 
