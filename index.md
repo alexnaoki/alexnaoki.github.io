@@ -16,6 +16,13 @@ Hydrological data are key in decision making for projects of water resources inf
 
 <h2><a href="/articles/opencv_hidrometro/opencv_hidrometro">OpenCV Hydrometer</a></h2>
 
+Being able to monitore your gauges often will create space for the improvement of a system. But most of the times, analog gauges lacks the integration with other systems, therefore, requiring personnel maintain.
+
+Hydraulics gauges are often analog ones, and so, it makes difficult to quantify it for extended periods of time. And to suppress this problem without changing the analog gauge is the implementation of computer vision software. [Read more](/articles/opencv_hidrometro/opencv_hidrometro)
+
+<img src="images/lhc_hidroweb/thumb_opencv_hidrometro.PNG?raw=true"/>
+
+
 
 <!-- <h2><a href="/articles/kaggle_datasets/kaggle_spotify">Kaggle x Spotify</a></h2>
 
