@@ -21,7 +21,7 @@ Being able to monitore your gauges often will create space for the improvement o
 
 Hydraulics gauges are often analog ones, and so, it makes difficult to quantify it for extended periods of time. And to suppress this problem without changing the analog gauge is the implementation of computer vision software. [Read more](/articles/opencv_hidrometro/opencv_hidrometro)
 
-<img src="images/lhc_hidroweb/thumb_opencv_hidrometro.PNG?raw=true"/>
+<img src="images/opencv_hidrometro/thumb_opencv_hidrometro.PNG?raw=true"/>
 
 [Link to Github Program](https://github.com/alexnaoki/analog-gauge-reader)
 
