@@ -10,5 +10,22 @@ The first and most important step of utilizing this program will required a **de
 
 The factors that makes a **decent** video are the following:
 - **No glare** where the analog guage is located.
-
 <img src="../../images/opencv_hidrometro/glare.PNG"/>
+
+- **Good arrow contrast**.
+
+- **No moving** video file.
+
+## 2. Convert RGB to Gray scale
+Even if your file appears to be in Gray scale, it is likely that the video is RGB.
+
+``
+img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+``
+
+
+
+fsdfs
+'''
+
+## 3. warpPerspective
