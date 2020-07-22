@@ -53,14 +53,36 @@ clock = np.bitwise_and(warped_frame, mask)
 
 Some videos with poor contrast can be solved by Equalizing the image.
 
-
 Without Equalizing             |  With Equalizing
 :-------------------------:|:-------------------------:
 ![](../../images/opencv_hidrometro/without_eq.PNG)  |  ![](../../images/opencv_hidrometro/with_eq.PNG)
-
-
 
 ```
 # Equalizing the image
 clock_eq = cv.equalizeHist(clock)
 ```
+
+And finally, we remove extreme values. The minimum and maximum is a try and error process.
+```
+# Applying a threshold for the image
+# The values can vary from 0 to 255
+_, clock_t = cv.threshold(clock_eq, min_treshold, max_treshold, cv.THRESH_BINARY_INV)
+```
+
+## 5. Finding Contour
+This program relies on the contour of the arrow of the analog gauge. There are other tecniques that relies on [Hough Lines](https://docs.opencv.org/3.4/d9/db0/tutorial_hough_lines.html), but depending on your gauge arrow it can be unreliable.
+
+```
+# This function will find all contours based on the method call "CHAIN_APPROX_SIMPLE", there are other methods that you can also try
+clock_c, _ = cv.findContours(clock_t, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+```
+
+## 6. Getting the discrete value
+You will need to filter the differents contours that the previous method will find and find the edge of the arrow.
+
+After you find the point of the gauge, by analising the relative position of it and the center you can calculate the estimated value.
+
+
+For more details see [Github](https://github.com/alexnaoki/analog-gauge-reader).
+
+You can make suggestion by contacting me on [Twitter](https://twitter.com/AlexNAKobayashi), or any other social media.
