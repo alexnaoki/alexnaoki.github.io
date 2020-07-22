@@ -26,7 +26,7 @@ import cv2 as cv
 # Importing Numpy since we should think the video as a series of Matrices
 import numpy as np
 
-# img is a matrix (1048, 1200, 3), where 3 is RGB
+# img is a matrix (1048, 1200, 3), where 3 is the RGB portion
 img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 ```
 
@@ -53,9 +53,9 @@ clock = np.bitwise_and(warped_frame, mask)
 
 Some videos with poor contrast can be solved by Equalizing the image.
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](<img src="../../images/opencv_hidrometro/glare.PNG"/>)  |  ![](<img src="../../images/opencv_hidrometro/glare.PNG"/>)
+
+![alt-text-1](../../images/opencv_hidrometro/glare.PNG "title-1") ![alt-text-2](image2.png "title-2")
+
 
 ```
 # Equalizing the image
