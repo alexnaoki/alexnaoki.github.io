@@ -21,7 +21,10 @@ Being able to monitore your gauges often will create space for the improvement o
 
 Monitoring gauges give support to studies aiming at understanding hydrological processes.  Nevertheless analog gauges mostly lacks integration with other monitoring systems, therefore, requiring personnel maintainances.
 
-Hydraulics gauges are often analog ones, and so, it makes difficult to quantify it for extended periods of time. And to suppress this problem without changing the analog gauge is the implementation of computer vision software. [Read more](/articles/opencv_hidrometro/opencv_hidrometro)
+<!-- Hydraulics gauges are often analog ones, and so, it makes difficult to quantify it for extended periods of time. And to suppress this problem without changing the analog gauge is the implementation of computer vision software.  -->
+
+Most hydraulic gauges are analog, so computing data for long periods are time consuming. To overcome this problem, computer vision software is a effortless solution.
+[Read more](/articles/opencv_hidrometro/opencv_hidrometro)
 
 <img src="images/opencv_hidrometro/thumb_opencv_hidrometro.PNG?raw=true"/>
 
