@@ -19,14 +19,14 @@ The factors that makes a **decent** video are the following:
 ## 2. Convert RGB to Gray scale
 Even if your file appears to be in Gray scale, it is likely that the video is RGB.
 
-``
+```
 # Importing OpenCV
 import cv2 as cv
 
 # img is a matrix (1048, 1200, 3), where 3 is RGB
 img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-``
+```
 
 
 ## 3. warpPerspective
-Ideally the view of the video frame should be perpendicular with the analog gauge in order to avoid distorsions.
+Ideally the view of the video frame should be perpendicular with the analog gauge to avoid distorsions in the read.
