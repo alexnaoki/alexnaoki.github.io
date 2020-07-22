@@ -22,6 +22,7 @@ Hydraulics gauges are often analog ones, and so, it makes difficult to quantify 
 
 <img src="images/lhc_hidroweb/thumb_opencv_hidrometro.PNG?raw=true"/>
 
+[Link to Github Program](https://github.com/alexnaoki/analog-gauge-reader)
 
 
 <!-- <h2><a href="/articles/kaggle_datasets/kaggle_spotify">Kaggle x Spotify</a></h2>
