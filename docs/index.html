@@ -47,7 +47,8 @@
     <div id="set-height"></div>
     <!-- autobuffer preload  -->
     <video id="v0" tabindex="0" src="media/test_video.mp4", playsinline>
-        <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="media/test_video.mp4"></source>
+        <source src="media/test_video.webm" type='video/webm; onerror="fallback(parentNode)"'>
+        <source type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' src="media/test_video.mp4">
     </video>
     <script src="plugin/video.js"></script>
     <script>
