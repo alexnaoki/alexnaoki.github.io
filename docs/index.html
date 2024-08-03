@@ -18,7 +18,52 @@
 			<div class="slides">
 
 				<section>
-					Test
+					<!-- <video src="media/test_video.mp4" controls></video>
+
+					<script src="plugin/video.js"></script> -->
+
+					<div id="set-height"></div>
+
+					<video id="v0" tabindex="0" src="media/test_video.mp4", autobuffer preload>
+						<!-- <source type='media; codecs="avc1.42E01E, mp4a.40.2"' src="test_video.mp4"></source> -->
+					</video>
+					<script src="plugin/video.js"></script>
+					<script>
+				
+						enterView({
+							selector: 'section',
+							enter: function(el) {
+								el.classList.add('entered');
+							}
+						})
+					
+						var frameNumber = 0, // start video at frame 0
+						// lower numbers = faster playback
+						playbackConst = 500, 
+						// get page height from video duration
+						setHeight = document.getElementById("set-height"), 
+						// select video element         
+						vid = document.getElementById('v0'); 
+						// var vid = $('#v0')[0]; // jquery option
+				
+					// dynamically set the page height according to video length
+					vid.addEventListener('loadedmetadata', function() {
+					setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+					});
+				
+				
+					// Use requestAnimationFrame for smooth playback
+					function scrollPlay(){  
+					var frameNumber  = window.pageYOffset/playbackConst;
+					vid.currentTime  = frameNumber;
+					window.requestAnimationFrame(scrollPlay);
+					}
+				
+					window.requestAnimationFrame(scrollPlay);
+					
+					</script>
+
+
 				</section>
 
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
@@ -47,9 +92,9 @@
 					<h2 style="margin-top: 0%;">Choice modeling</h2>
 					<h6>Participation</h6>
 					<div class="r-hstack justify-around">
-						<div data-id="box1" style="background: rgb(175, 203, 185); width: 200px; height: 200px;"><p>Yes</p></div>
+						<div data-id="box1" style="background: rgb(175, 203, 185); width: 200px; height: 200px;"><p class="fragment fade-out" data-fragment-index="1">Yes</p></div>
 						<div data-id="box3" style="background: #e063c5; opacity: 0.0; position: absolute; top: 179px; left: 63%; width: 200px; height: 200px;"></div>
-						<div data-id="box2" style="background: #ff6961; width: 200px; height: 200px;"><p>No</p></div>
+						<div data-id="box2" style="background: #ff6961; width: 200px; height: 200px;"><p class="fragment fade-out" data-fragment-index="1">No</p></div>
 
 					</div>
 					<img data-id="man1" src="./media/man_figure.svg">
@@ -64,7 +109,6 @@
 				</section>
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.500, 0.35, 1.000)">
 					<h2 style="margin-top: 0%;">Choice modeling</h2>
-					<h6>Participation</h6>
 					<div class="r-hstack justify-around">
 						<div data-id="box1" style="background: rgb(175, 203, 185); width: 200px; height: 200px;">
 							<img data-id="man1" src="./media/man_figure.svg">
@@ -79,14 +123,13 @@
 							<img data-id="man8" src="./media/man_figure.svg">
 							<img data-id="man9" src="./media/man_figure.svg">
 						</div>
-						<div data-id="box3" style="background: #e063c5; opacity: 0.0;position: absolute; top: 179px; left: 63%; width: 200px; height: 200px;">
-
+						<div data-id="box3" style="background: #e063c5; opacity: 1.0; width: 200px; height: 200px;">
+							<p>Any protest?</p>
 						</div>
 					</div>
 				</section>
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.500, 0.35, 1.000)">
 					<h2 style="margin-top: 0%;">Choice modeling</h2>
-					<h6>Participation</h6>
 					<div class="r-hstack justify-around">
 						<div data-id="box1" style="background: rgb(175, 203, 185); width: 200px; height: 200px;">
 							<img data-id="man1" src="./media/man_figure.svg">
@@ -99,15 +142,14 @@
 						<div data-id="box2" style="background: #ff6961; width: 200px; height: 200px;">
 							<img data-id="man7" src="./media/man_figure.svg">
 							<img data-id="man8" src="./media/man_figure.svg">
+						</div>
+						<div data-id="box3" style="background: #e063c5; opacity: 1.0; width: 200px; height: 200px;">
 							<img data-id="man9" src="./media/man_figure.svg">
 						</div>
-						<div data-id="box3" style="background: #e063c5; opacity: 1.0; position: absolute; top: 400px; left: 64.5%;width: 200px; height: 100px;">
-						</div>
 					</div>
 				</section>
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.500, 0.35, 1.000)">
 					<h2 style="margin-top: 0%;">Choice modeling</h2>
-					<h6>Participation</h6>
 					<div class="r-hstack justify-around">
 						<div data-id="box1" style="background: rgb(175, 203, 185); width: 200px; height: 200px;">
 							<img data-id="man1" src="./media/man_figure.svg">
@@ -120,21 +162,24 @@
 						<div data-id="box2" style="background: #ff6961; width: 200px; height: 200px;">
 							<img data-id="man7" src="./media/man_figure.svg">
 							<img data-id="man8" src="./media/man_figure.svg">
-
 						</div>
-						<div data-id="box3" style="background: #e063c5; opacity: 1.0; position: absolute; top: 400px; left: 64.5%;width: 200px; height: 100px;">
-						<img data-id="man9" src="./media/man_figure.svg">
+						<div data-id="box3" style="background: #e063c5; opacity: 1.0; width: 200px; height: 200px;">
+							<img data-id="man9" src="./media/man_figure.svg">
 						</div>
 					</div>
+					<p>Mixed Multinomial logit model without protestrs using Apollo in R:</p>
+					<h5 data-id="mml">$$V_{it} = asc + \beta_i X_{it} + \alpha_i Z_{it}$$</h5>
 				</section>
-
 			</div>
 		</div>
+
+
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -142,8 +187,9 @@
 			Reveal.initialize({
 
 				view: 'scroll',
+				scrollSnap: 'false',
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath]
 			});
 		</script>
 	</body>
